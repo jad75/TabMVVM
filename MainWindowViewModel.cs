@@ -20,6 +20,8 @@ namespace TabDemo
             get { return _selectedTabIndex; }
             set 
             { _selectedTabIndex = value;
+
+                
                 NotifyPropertyChanged();
             }
         }

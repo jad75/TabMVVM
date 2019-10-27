@@ -23,6 +23,7 @@ namespace TabDemo
         public FirstView()
         {
             InitializeComponent();
+            DataContext =new  FirstViewModel();
         }
     }
 }
